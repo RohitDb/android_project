@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/splashImage"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        app:srcCompat="@drawable/splash"
+        android:contentDescription="@string/splash" />
+
+    <TextView
+        android:id="@+id/splashText"
+        android:layout_width="wrap_content"
+        android:layout_height="166dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/bungee"
+        android:text="@string/running_tracker"
+        android:textAlignment="center"
+        android:textColor="#DF0606"
+        android:textSize="48sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

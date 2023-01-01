@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home" android:icon="@drawable/ic_home" android:id="@+id/MenuHome" android:state_checked="true"  android:color="#FD2727"   />
+    <item android:title="@string/run"  android:icon="@drawable/ic_run" android:id="@+id/MenuRun" android:state_checked="true"  android:color="#FD2727" />
+    <item android:title="@string/report" android:icon="@drawable/ic_report" android:id="@+id/MenuReport" android:state_checked="true"  android:color="#FD2727" />
+    <item android:title="@string/profile" android:icon="@drawable/ic_profile" android:id="@+id/MenuProfile" android:state_checked="true"  android:color="#FD2727"  />
+
+</menu>
